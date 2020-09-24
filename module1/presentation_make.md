@@ -3,7 +3,7 @@
 # `make`
 
 <a href="https://coders.school">
-    <img width="500" data-src="coders_school_logo.png" alt="Coders School" class="plain">
+    <img width="500" data-src="../coders_school_logo.png" alt="Coders School" class="plain">
 </a>
 
 ___
@@ -84,7 +84,7 @@ W katalogu greeter znajdziesz malutki program. Zapoznaj się z jego kodem.
 ### Zaklęcie kompilacji
 
 ```bash
-g++ -std=c++17 -Wall -Werror -Wextra -pedantic *.cpp - o greeter
+g++ -std=c++17 -Wall -Werror -Wextra -pedantic *.cpp -o greeter
 ./greeter
 ```
 
